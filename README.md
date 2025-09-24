@@ -52,13 +52,13 @@ Runs the complete BDDR defense pipeline including backdoor detection and label r
 ```bash
 python Main.py eu
 ```
-Evaluates the model performance on clean accuracy (CA) and attack success rate (ASR).
+Evaluates the model performance or data on clean accuracy (CA) and attack success rate (ASR).
 
 #### 3. Image Splitting Mode
 ```bash
 python Main.py si
 ```
-Splits and processes images for analysis and visualization.
+Splits and processes images for defense module.
 
 ### Configuration
 
