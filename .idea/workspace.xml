@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beed1900-be39-4c9c-925d-635550ae4e1e" name="更改" comment="Add files via upload" />
+    <list default="true" id="beed1900-be39-4c9c-925d-635550ae4e1e" name="更改" comment="Add files via upload">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,14 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Software_Data_2/PYTHON_PROJECTS/STITP/BDDR&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Software_Data_2/PYTHON_PROJECTS/STITP/BDDR",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Software_Data_2\PYTHON_PROJECTS\STITP\BDDR\ms-swift" />
+      <recent name="E:\Software_Data_2\PYTHON_PROJECTS\STITP\BDDR" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -131,7 +148,151 @@
       <option name="project" value="LOCAL" />
       <updated>1759061656749</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759061993750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759061993750</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759062005064</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759062005064</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759062007383</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759062007383</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759062008488</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759062008488</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063333712</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063333712</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063335980</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063335980</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063336520</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063336520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063336935</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063336935</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063337087</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063337087</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063337252</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063337252</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063337424</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063337424</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063337595</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063337595</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063542304</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063542304</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063543492</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063543492</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063543997</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063543997</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063544137</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063544137</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063544283</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063544283</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1759063544450</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1759063544450</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
