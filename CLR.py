@@ -4,7 +4,7 @@ from torch import nn, optim
 from torch.utils.data import DataLoader, TensorDataset
 from model_data.load_Model import LModel, get_model
 from EvaUnite import EUmain
-
+from model_data.load_Pic import get_data_pic
 from utils.util import accuracy, AverageMeter
 
 from model_data.fix_Dataset import getJSONLdata, save_data_to_jsonl
@@ -200,7 +200,7 @@ def CLMmain(opt, poisoned_data, poisoned_data_loader, other_examples, test_clean
     student_model = train_student_model(opt, teacher_model, test_iso_loader)
     print("--------Evaluating teacher and student model--------")
     # EUmain(opt, mode="model", model=teacher_model)
-    # EUmain(opt, mode="model", model=student_model)
+    EUmain(opt, mode="model", model=student_model)
 
     i=0
     while i<5:
@@ -213,8 +213,10 @@ def CLMmain(opt, poisoned_data, poisoned_data_loader, other_examples, test_clean
 
         merged_data = corrected_data_bd
 
+        _, test_bad_loader = get_data_pic(opt, "/root/autodl-tmp/data/swift_data/badnets_test")
+
         print("--------Evaluating corrected poisoned dataset--------")
-        clR, poiR = evaluate_corrected_dataset(opt, merged_data, test_clean_loader, test_iso_loader, False, Lr=0.0005)
+        clR, poiR = evaluate_corrected_dataset(opt, merged_data, test_clean_loader, test_bad_loader, False, Lr=0.0005)
         
 
         print("--------------------clR: ", clR, "poiR: ", poiR, "eqoch", i,"delta",opt.CLR_delta,"gamma",opt.CLR_gamma,"---------------------")

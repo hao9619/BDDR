@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beed1900-be39-4c9c-925d-635550ae4e1e" name="更改" comment="Add files via upload" />
+    <list default="true" id="beed1900-be39-4c9c-925d-635550ae4e1e" name="更改" comment="Add files via upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDI.py" beforeDir="false" afterPath="$PROJECT_DIR$/BDI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLR.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/lenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/selector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/wresnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/bd_Iso.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/bd_Iso.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758696194733</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add files via upload">
+      <option name="closed" value="true" />
+      <created>1758696240848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758696240848</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

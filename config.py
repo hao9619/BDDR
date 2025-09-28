@@ -19,9 +19,9 @@ class Config:
         self.test_data_clean_path: str = self.PublicAddress +'/cifar10_test.jsonl'
         self.test_data_bad_path: str =  self.PublicAddress +'/cifar10_test.jsonl'
 
-        self.poisoned_data_pic_path: str = self.PublicAddress + '/1000_cifar10_poisoned_images'
+        self.poisoned_data_pic_path: str = self.PublicAddress + '/badnets'
         self.test_data_clean_pic_path: str = self.PublicAddress +'/cifar10_test_images'
-        self.test_data_bad_pic_path: str = self.PublicAddress + '/1000_cifar10_poisoned_images'
+        self.test_data_bad_pic_path: str = self.PublicAddress + '/badnets'
 
         self.fixed_model_root: str = './cifar10'
         self.load_fixed_model: int = 0
@@ -30,7 +30,7 @@ class Config:
 
         # BDI module -----------------(Backdoor_Detection_and_Isolation)
         self.print_freq: int = 200
-        self.tuning_epochs: int = 10
+        self.tuning_epochs: int = 1
         self.gradient_ascent_type: str = 'Flooding'
         self.isolation_ratio: float = 0.1
         self.gamma: float = 0.5
@@ -43,9 +43,9 @@ class Config:
         self.CLR_eva_epochs: int = 20
         self.CLR_noise_intensity: int = 0.1
         self.CLR_teahcer_epochs: int = 20
-        self.CLR_student_epochs: int = 40
-        self.CLR_delta: float = 2.5
-        self.CLR_gamma: float = 0.8
+        self.CLR_student_epochs: int = 80
+        self.CLR_delta: float = 1.6
+        self.CLR_gamma: float = 1.1
 
         self.CLR_lr: float = 0.0005
         self.CLR_momentum: float = 0.9
@@ -82,9 +82,9 @@ class Config:
         self.EU_test_data_clean_path: str = self.PublicAddress +'/cifar10_test.jsonl'
         self.EU_test_data_bad_path: str = self.PublicAddress + '/isolate_data.jsonl'
 
-        self.EU_poisoned_data_pic_path: str = self.PublicAddress + '/1000_cifar10_poisoned_images'
+        self.EU_poisoned_data_pic_path: str = self.PublicAddress + '/badnets'
         self.EU_test_data_clean_pic_path: str = self.PublicAddress +'/cifar10_test_images'
-        self.EU_test_data_bad_pic_path: str = self.PublicAddress + '/1000_cifar10_poisoned_images'
+        self.EU_test_data_bad_pic_path: str = self.PublicAddress + '/badnets_test'
 
         self.EU_lr: float = 0.0005
         self.EU_momentum: float = 0.9

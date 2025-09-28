@@ -1,10 +1,10 @@
 
 from utils.util import *
-from model_data.selector import *
+import torch.nn as nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-
-
+from model_data.load_Model import LModel, get_model
+from torch import optim
 def compute_loss_value(opt, poisoned_data, model_ascent):
     # Calculate loss value per example
     # Define loss function
@@ -168,20 +168,10 @@ def test(opt, test_clean_loader, test_bad_loader, model_ascent, criterion, epoch
 def train(opt,poisoned_data_loader, test_clean_loader, test_bad_loader):
     # Load models
     print('----------- Network Initialization --------------')
-    model_ascent, _ = select_model(dataset=opt.dataset,
-                           model_name=opt.model_name,
-                           pretrained=False,
-                           pretrained_models_path=None,
-                           n_classes=opt.num_class)
-    model_ascent.to(opt.device)
+    
+    model_ascent=get_model(opt)
     print('finished model init...')
-
-    # initialize optimizer
-    optimizer = torch.optim.SGD(model_ascent.parameters(),
-                                lr=opt.lr,
-                                momentum=opt.momentum,
-                                weight_decay=opt.weight_decay,
-                                nesterov=True)
+    optimizer = optim.AdamW(model_ascent.parameters(), lr=opt.lr, weight_decay=opt.weight_decay)
 
     # define loss functions
     if opt.cuda:
