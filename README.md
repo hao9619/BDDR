@@ -71,7 +71,7 @@ BDDR/
 ├── Main.py                 # Main entry point
 ├── config/                 # Configuration files
 ├── ncfm/                   # Federated learning distillation framework
-├── ms-swift/               # LLM fine-tuning utilities
+├── swift/               # LLM fine-tuning utilities
 ├── bddr/                   # Core BDDR implementation
 │   ├── bdi.py             # Backdoor Data Identification
 │   ├── clr.py             # Correct Label Restoration
@@ -96,7 +96,7 @@ For large language model fine-tuning:
 
 ```bash
 cd ms-swift/
-# Follow instructions in ms-swift/README.md
+# Follow instructions in swift/README.md
 ```
 
 ## 📊 Experimental Results
